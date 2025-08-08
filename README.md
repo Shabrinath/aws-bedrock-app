@@ -34,7 +34,16 @@ Technologies Used
 | **GitHub Pages** | Hosts the frontend `index.html` file |
 | **Python (Boto3)** | Backend logic and Bedrock interaction |
 
+* * * * *
 
+Architecture Flow
+---------------------
+
+1.  **GitHub Pages (Frontend)** -- User inputs text via the browser UI.
+2.  **API Gateway** -- Forwards requests from the frontend to the backend.
+3.  **AWS Lambda** -- Executes serverless logic and invokes Bedrock.
+4.  **AWS Bedrock (Claude)** -- Generates a response from the Claude model.
+   
 * * * * *
 
 Getting Started
